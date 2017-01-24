@@ -14,7 +14,7 @@ describe BonusDrink do
   it "購入した本数 11本の時は 16本" do
     expect(BonusDrink.total_count_for(11)).to eq 16
   end
-  it "購入した本数 100本の時は ?本" do
-    expect(BonusDrink.total_count_for(100)).to_not eq 100
+  it "購入した本数 100本の時は 149本" do
+    expect(BonusDrink.total_count_for(100)).to eq 149
   end
 end
